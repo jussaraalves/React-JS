@@ -8,7 +8,7 @@ class App extends Component{
     super(props);
     this.state = {
       hora: '00:00:00'
-    }
+    } 
   }
 
   componentDidMount(){

@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Equipe = (props) => {
@@ -30,6 +31,7 @@ const Social = (props) => {
     </div>
   );
 }
+
 /* Componente Principal */
 export default function App(){
   return(
