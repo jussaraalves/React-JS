@@ -8,13 +8,17 @@ import Card from'./components/layout/Card';
 import Repeticao  from './components/basicos/Repeticao';
 import Condicional  from './components/basicos/Condicional';
 import CondicionalComIf from'./components/basicos/CondicionalComIf';
-import Pai from './components/comunicacao/direta/pai'
-import Super from'./components/comunicacao/indireta/Super'
-import Input from'./components/form/Input'
-import Contador from './components/contador/Contador'
+import Pai from './components/comunicacao/direta/pai';
+import Super from'./components/comunicacao/indireta/Super';
+import Input from'./components/form/Input';
+import Contador from './components/contador/Contador';
+import Mega from'./components/mega/Mega';
 
 export default (props) => (
 <div className='App'>
+    <Card titulo="#11 - Contador" color="#dbefde">
+        <Mega qtdeNumero={8}></Mega>
+    </Card>
     <Card titulo="#10 - Contador" color="#8bdbe3">
         <Contador passo={10} valor={100}></Contador>
     </Card>
